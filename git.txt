@@ -1,0 +1,25 @@
+March 5, 2016
+=================================
+New commands at a glance:
+
+diff -u old_file.js new_file.js
+git log
+git log --stat
+git diff id_old id_nnew
+git clone url_of_repo
+git checkout id_1
+=================================
+
+I learned how to use diff -u old_file.js new_file.js to compare things in terminal. The -u flag stands for universal and makes viewing the files easier.
+
+Continuing with the Git tutorial.
+I learned that it is good to commit after each logical change has been made to the code. For example, a bug fix, a new feature that took about an hour.
+
+Learned how to use git log and git log --stat
+Learned how to use git diff id_1 id_2
+
+Learned how to use git checkout id_1 : this changes the "head" to commit with the id id_1, so you're reverting to a previous copy of the file. You can go forward in the history as well.
+
+Customize terminal by editing the .bash_profile in the home directory
+
+Staging area: place to add multiple files before commiting
