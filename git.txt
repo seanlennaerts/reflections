@@ -8,6 +8,16 @@ git log --stat
 git diff id_old id_nnew
 git clone url_of_repo
 git checkout id_1
+git status
+git diff
+git diff --staged
+git reset --hard
+
+git branch
+git branch branch_name
+git checkout branch_name
+git log --graph --oneline
+git show commit_id
 =================================
 
 I learned how to use diff -u old_file.js new_file.js to compare things in terminal. The -u flag stands for universal and makes viewing the files easier.
@@ -23,3 +33,15 @@ Learned how to use git checkout id_1 : this changes the "head" to commit with th
 Customize terminal by editing the .bash_profile in the home directory
 
 Staging area: place to add multiple files before commiting
+
+Use git diff without arguments to see the differences between the working directory and the staging area. Useful before committing
+
+Use git diff --staged to see differences between files in staging area and last commit. This is usefull to check everything you changed before commiting.
+
+Use git reset --hard to revert any changes in either the working directory or the staging area. NOT REVERSIBLE!
+
+Branching is goo for working with others. Commonly make a new branch for every feature and bug fix. Then merge.
+
+Use git log --graph --oneline to visualized git!
+
+Use git show to see the diff between a commit id and it's parent
